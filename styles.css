@@ -7,3 +7,16 @@
 .btn-class{
     padding: 2%;
 }
+
+.modal{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        display: none;
+}
+
