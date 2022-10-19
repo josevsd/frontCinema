@@ -1,3 +1,4 @@
+
 const acao = () =>{
     let modal = document.querySelector('.modal');
 
@@ -59,3 +60,10 @@ const abrirSete = () =>{
     
     modal.style.display = 'block';
 }
+
+
+
+
+
+
+
