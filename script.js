@@ -1,8 +1,10 @@
 
 const acao = () =>{
     let modal = document.querySelector('.modal');
+    let modalUm = document.queryCommandValue('.modalDois')
 
     modal.style.display = 'block';
+    modalUm.style.display = 'none';
 }
 
 const fechar = () =>{
@@ -26,8 +28,10 @@ const fechar = () =>{
 
 const abrirDois = () =>{
     let modal = document.querySelector('.modalDois');
-    
+    setData()
     modal.style.display = 'block';
+    
+
 }
 
 const abrirTres = () =>{
@@ -61,6 +65,33 @@ const abrirSete = () =>{
     modal.style.display = 'block';
 }
 
+const setData = () =>{
+    let local = localStorage
+    // let nomes = " Orfã: A origem"
+
+    // localStorage.setItem("nome", nome)
+    // let data ={
+    //     nome: nomes,
+    //     "capac_max": 100,
+    //     "horario": " 15:00 e 18:00",
+    //     "ing_vendas": "",
+    //     "id_filme": ""
+    // }
+    // local.setItem("sala", JSON.stringify(data));
+    
+    const sala = JSON.parse(local.getItem('sala'))
+    
+    const testCont = document.querySelector("#teste")
+    const horas = document.querySelector("#horas")
+    const Capaci = document.querySelector('#Capa')
+
+
+    console.log(testCont)
+
+    Capaci.textContent = sala.capac_max
+    testCont.textContent = sala.nome
+    horas.textContent = sala.horario
+}
 
 
 
