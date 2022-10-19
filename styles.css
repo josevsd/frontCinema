@@ -1,22 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.classDois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    color: rgb(26, 47, 236);
+    border-style: solid;
+}
+
 .classUm{
-    padding: 7%;
-    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 200px;
+    margin: 20px;
+    color: rgb(26, 47, 236);
     border-style: solid;
 }
 
 .btn-class{
+    box-shadow: 1px 3px 5px #919191;
+    overflow: hidden;
+    border-radius: 18px;
+    background-color: transparent;
+    color: black;
+    height: 30px;
+    width: 80px;
+    border-color: rgb(225, 225, 13);  
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+
+
+.fechar{
+    background-color: transparent;
+    color: red;
+    margin: 10px;
     padding: 2%;
+    float: right;
+    border-color: red;
+    border-radius: 15px;
+
 }
 
 .modal{
     width: 500px;
     height: 500px;
-    background-color: aliceblue;
+    background-color: white;
     position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         cursor: pointer;
         display: none;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+.titulo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
+.img-icon{
+    position: relative;
+    height: 55px;
+    width: 50px;
+}
+
+.img-icon-direito{
+    float: right;
+    position: relative;
+    height: 55px;
+    width: 50px;
+} 
+.tituloPrincipal{
+    color: rgb(229, 255, 0);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tabela{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+.modalDois{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        display: none;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.modalTres{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        display: none;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.modalQuatro{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        display: none;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.modalCinco{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        display: none;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.modalSeis{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        display: none;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.modalSete{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        display: none;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.Topo{
+    color: white;
+    height: 10vh;
+    display: flex;
+    background-color: rgb(21, 21, 204);
+}
